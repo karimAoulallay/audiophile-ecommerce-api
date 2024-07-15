@@ -69,7 +69,13 @@ JWT_ACCESS_SECRET=<your_jwt_access_secret>
 CLIENT_ORIGIN=<your_client_server_url>
 ```
 
-5. Start the server
+5. Run products seeder
+
+```sh
+node ./seeders/productsSeeder.js
+```
+
+6. Start the server
 
 ```sh
 npm run dev
